@@ -41,6 +41,7 @@ h1 {
 
 h2, h3, h4 {
 		font-weight: bold;
+        font-family: sans-serif;
 	}
 
 h2 {
@@ -71,7 +72,7 @@ figure {
 }
 
 main.menu ul {
-		margin: ____ ____;
+		margin: 2em 0em;
 }	
 
 main.menu ul li {
@@ -83,6 +84,7 @@ main.menu ul li {
 
 p {
 	margin: 1rem 2rem 1rem;
+    font-family: sans-serif;
 	}
 	
 p.description {
