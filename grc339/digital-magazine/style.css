@@ -33,7 +33,27 @@ nav a {
     color: rgb(85, 119, 153);
 }
 
+h2 {
+    font-family: serif;
+    font-weight: bold;
+    color: rgb(85, 119, 153);
+    margin-top: 0.25rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
 
+p {
+    font-family: sans-serif;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+figcaption {
+    margin: 0.5rem, 0.5rem, 1rem, .05rem;
+    font-style: italic;
+    font-family: sans-serif;
+    color: rgb(85, 85, 85);
+}
 .mainstory h2 {
     margin: 0 0.25em;
     
