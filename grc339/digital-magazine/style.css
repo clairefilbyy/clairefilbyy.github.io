@@ -46,6 +46,7 @@ p {
     font-family: sans-serif;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    color: rgb(0, 0, 0)
 }
 
 figcaption {
@@ -54,6 +55,12 @@ figcaption {
     font-family: sans-serif;
     color: rgb(85, 85, 85);
 }
+
+article h2 {
+    font-size: 2.5em;
+    margin-top: 2rem;
+}
+
 .mainstory h2 {
     margin: 0 0.25em;
     
