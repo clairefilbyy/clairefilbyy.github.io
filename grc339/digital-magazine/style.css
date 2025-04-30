@@ -37,9 +37,7 @@ h2 {
     font-family: serif;
     font-weight: bold;
     color: rgb(85, 119, 153);
-    margin-top: 0.25rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin: 0.25rem, 0.5rem, 0rem, 0.5rem;
 }
 
 p {
@@ -56,9 +54,23 @@ figcaption {
     color: rgb(85, 85, 85);
 }
 
+
+
 article h2 {
-    font-size: 2.5em;
     margin-top: 2rem;
+    font-family:serif;
+    font-weight: bold;
+    font-size: 3em;
+    
+}
+
+aside h2 {
+    
+    font-family:serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    padding-top:0.5em;
+    color:rgb(85, 119, 153);
 }
 
 .mainstory h2 {
