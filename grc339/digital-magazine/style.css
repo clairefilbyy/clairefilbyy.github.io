@@ -41,6 +41,7 @@ nav a {
 h2 {
     font-family: serif;
     font-weight: bold;
+    margin-left: .25rem;
     color: rgb(85, 119, 153);
 }
 
