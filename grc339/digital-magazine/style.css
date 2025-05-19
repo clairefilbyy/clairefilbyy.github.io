@@ -11,6 +11,7 @@ img {
 div.container, div.home-container {
     max-width: 40em;
     margin: auto;
+    background-color: rgb(228, 228, 216);;
 }
 
 a {
@@ -18,34 +19,35 @@ a {
 }
 
 h1 {
-    max-width: 8em;
-    margin-bottom: 2rem;
+    max-width: 3.5em;
 }
 
-nav {
-    margin-bottom: 1em;
-  }
 
 nav li {
     list-style-type: none;
 }
 
 nav a {
-    font-family: sans-serif;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: rgb(85, 119, 153);
+    font-family: "fleur", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5em;
+    color: rgb(87, 89, 55);
+    padding-left: .25rem;
 }
 
 h2 {
-    font-family: serif;
-    font-weight: bold;
+  font-family: "adobe-jenson-pro", serif;
+font-weight: 700;
+font-style: normal;
     margin-left: .25rem;
-    color: rgb(85, 119, 153);
+    color: rgb(87, 89, 55);
 }
 
 p {
-    font-family: sans-serif;
+    font-family: "kepler-std", serif;
+    font-weight: 300;
+    font-style: normal;
     color: rgb(0, 0, 0);
     margin-left: .25rem;
     margin-bottom: 2rem;
@@ -54,37 +56,48 @@ p {
 figcaption {
     margin-bottom: .5em;
     padding-top: .5rem;
-    font-style: italic;
-    font-family: sans-serif;
+    font-family: "kepler-std", serif;
+font-weight: 300;
+font-style: italic;
     color: rgb(85, 85, 85);
 }
 
 
 article h2 {
+     font-family: "adobe-jenson-pro", serif;
+    font-weight: 700;
+    font-style: normal;
     font-family:serif;
     font-weight: bold;
     font-size: 3em;
-    padding-top:0.5em;
-    color:rgb(85, 119, 153);
+    color:rgb(87, 89, 55);
 }
 
 aside h2 {
-    
+    font-family: "adobe-jenson-pro", serif;
+    font-weight: 700;
+    font-style: normal;
     font-family:serif;
     font-weight: bold;
     font-size: 1.25em;
     padding-top:0.5em;
-    color:rgb(85, 119, 153);
+    color:rgb(87, 89, 55);
 }
     
 
 .mainstory h2 {
+    font-family: "adobe-jenson-pro", serif;
+    font-weight: 700;
+    font-style: normal;
     margin-left: .25rem;
     font-size: 2.5em;
     
 }
 
 .secondarystory h2 {
+    font-family: "adobe-jenson-pro", serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 1.5em;
     margin-left: .25rem;
     padding-top: .25rem;
@@ -92,6 +105,9 @@ aside h2 {
 }
 
 .tertiarystory h2 {
+    font-family: "adobe-jenson-pro", serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 1.25em;
     margin-left: .25rem;
     padding-top: .5rem;
@@ -99,19 +115,18 @@ aside h2 {
 
 
 .tertiarystory {
-    border-top: solid 1px rgb(85, 119, 153);
+    border-top: solid 1px rgb(87, 89, 55);
     
 }
 
 aside {
-    background-color: rgb(203, 207, 255);
     padding: 0.5rem;
 }
 
 footer {
     width:100%;
     padding: 1rem 0.5rem;
-    background-color: rgb(85, 119, 153);
+    background-color: rgb(87, 89, 55);
     box-sizing: border-box;
 }
 
@@ -129,7 +144,7 @@ footer p{
         margin-right: 0.5em;
     }
 
- }
+}
 
  @media only screen and (min-width:60em) {
     div.home-container {
