@@ -11,7 +11,7 @@ img {
 div.container, div.home-container {
     max-width: 40em;
     margin: auto;
-    background-color: rgb(228, 228, 216);;
+    background-color: rgb(228, 228, 216);
 }
 
 a {
@@ -81,7 +81,7 @@ aside h2 {
     font-weight: bold;
     font-size: 1.25em;
     padding-top:0.5em;
-    color:rgb(92, 94, 60);
+    color:rgb(97, 99, 65);
 }
     
 
